@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0PX;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #ff6666;
+    padding: 2px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.nav-item-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.list-item {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Georgia";
+}
+
+.hamburger-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.top-container {
+    background-image: linear-gradient(to left, #ffb3da, #ffffb3);
+    height: 100vh;
+    display: flex;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 50px;
+}
+
+.desc {
+    font-family: "Arial";
+    font-weight: 400;
+}
+
+.click-me-btn {
+    height: 36px;
+    width: 180px;
+    margin-top: 25px;
+    border: none;
+    background-color: #ff6666;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.right-container {
+    background-image: url('https://res.cloudinary.com/dnebrhaqh/image/upload/v1705902225/simplotel_assignment_img_1_j5camu.jpg');
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+}
+
+.left-container {
+    width: 50%;
+    height: 100vh;
+    padding: 100px 60px 60px 100px;
+}
+
+.bottom-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to left, #ffb3da, #ffffb3);
+}
+
+.images-container {
+    display: flex;
+    padding: 100px 60px 60px 100px;
+    width: 50%;
+}
+
+.vertical-images-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-img {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.top-vertical-img {
+    height: 410px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.card-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    height: 200px;
+    width: 400px;
+    background-color: #ff6666;
+    margin-right: 130px;
+    padding: 20px;
+}
+
+.name {
+    font-family: "Roboto";
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.click-container {
+    display: flex;
+    align-items: center;
+}
+
+.card-heading {
+    font-family: "Roboto";
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right-arrow {
+    height: 20px;
+    width: 25px;
+    padding-left: 8px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .list-item {
+        font-size: 16px;
+    }
+
+    .left-container {
+        width: 50%;
+    }
+
+    .hamburger-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .click-me-btn {
+        width: 120px;
+        height: 30px;
+    }
+
+    .right-container {
+        width: 50%;
+    }
+
+    .images-container {
+        width: 50%;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .vertical-img {
+        height: 150px;
+        width: 200px;
+    }
+
+    .top-vertical-img {
+        height: 310px;
+    }
+
+    .card {
+        height: 150px;
+        width: 250px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .card-heading {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .navbar {
+        height: 40px;
+        padding: 10px;
+        padding-left: 10px;
+        justify-content: flex-end;
+    }
+
+    .list-item {
+        display: none;
+    }
+
+    .hamburger-icon {
+        margin-left: 160px;
+        margin-right: 0px;
+    }
+
+    .left-container {
+        padding: 20px 20px 20px 20px;
+        padding-left: 20px;
+        width: 100vh;
+        margin-right: 20px;
+    }
+
+    .top-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-container {
+        width: 100%;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+
+    .images-container {
+        padding: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .card-heading {
+        font-size: 18px;
+    }
+
+    .vertical-img {
+        height: 130px;
+        width: 150px;
+        padding-left: 10px;
+    }
+
+    .top-vertical-img {
+        height: 270px;
+    }
+}
